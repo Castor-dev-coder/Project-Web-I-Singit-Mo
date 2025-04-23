@@ -1,0 +1,19 @@
+body {
+
+    background-color: black ;
+}
+
+#Lols {
+    padding: 5%;
+    width: auto;
+    height: auto;
+    background-color: #FFF01F;
+    background-image: radial-gradient(black 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
+}
+
+#title {
+    font-size: 120px;
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+body {
+    font-family: "Microsoft YaHei", "Arial", "Helvetica", sans-serif;
+    background-color: #FFF01F;
+    background-image: radial-gradient(black 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
+}
+
+#title  {
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    margin-top: 40px;
+    color: #FFF01F;
+    outline: 5px double black;
+    -webkit-text-stroke: 1px black;
+}
+
+.drivers-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.drivers {
+    width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+}
+
+.drivers img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}

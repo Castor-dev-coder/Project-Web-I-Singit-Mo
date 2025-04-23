@@ -1,0 +1,74 @@
+body {
+    font-family: "Microsoft YaHei", "Arial", "Helvetica", sans-serif;
+    background-color: #FFF01F;
+    background-image: radial-gradient(black 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
+    line-height: 2;
+}
+
+#nav {
+    background-color: black;
+    overflow: hidden;
+    padding: 2%;
+    font-size: large;
+    color: #FFF01F;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+p, h1{
+    line-height: 2;
+    word-spacing: 1px;
+}
+
+.title_of_course {
+    border: 3px solid black;
+    height: 120px;
+    width: auto;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 3%;
+    font-size: 60px;
+    text-align: justify;
+    text-indent: 30px;
+    color: black;
+}
+
+#img {
+    position: absolute;
+    background-color: #FFF01F;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: medium;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#id_of_An_ID {
+    padding: 4%;
+    margin-left: -8px;
+    margin-right: -8px;
+    color: white;
+    background-color: black;
+}
+
+#reunion {
+    height: fit-content;
+    width: fit-content;
+    background-color: #FFF01F;
+    border: 2px solid black;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 1.5cm;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#reunion:hover {
+    background-color: #d4bf1a; /
+}

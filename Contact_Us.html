@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--This is Ai ready made so beware-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us - I - Singit Mo</title>
+    <style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #FFF01F;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 20px;
+        background-image: radial-gradient(black 1px, transparent 0);
+        background-size: 40px 40px;
+        background-position: -19px -19px;
+    }
+
+    .contact-container {
+        background-color: black;
+        color: #3B3C37;
+        padding: 40px;
+        border-radius: 12px;
+        max-width: 600px;
+        width: 100%;
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        background-image: radial-gradient(white 1px, transparent 0);
+        background-size: 40px 40px;
+        background-position: -19px -19px;
+    }
+
+    .contact-container h1 {
+    margin-top: 0;
+    color: #FFF01F;
+    font-size: 32px;
+    }
+
+    label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #FFF01F;
+    }
+
+    input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    }
+
+    button {
+    margin-top: 20px;
+    background-color: #FFF01F;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+
+    button:hover {
+    background-color: #d4a300;
+    }
+
+    @media (max-width: 600px) {
+    .contact-container {
+        padding: 20px;
+    }
+
+    .contact-container h1 {
+        font-size: 24px;
+    }
+    }
+    </style>
+</head>
+<body>
+
+<div class="contact-container">
+    <h1>Contact Us</h1>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" placeholder="You know,your name" id="name" required>
+
+        <label for="email" >Email</label>
+        <input type="email" placeholder="Name@gmail.com" id="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Please be considerate" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+</div>
+
+</body>
+</html>

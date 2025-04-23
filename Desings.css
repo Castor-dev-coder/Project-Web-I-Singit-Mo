@@ -1,0 +1,342 @@
+html,body {
+    height: 100%;
+}
+
+body {
+    background-color: #FFF01F;
+    font-family: "Microsoft YaHei", "Arial", "Helvetica", sans-serif;
+    background-image: radial-gradient(black 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
+}
+
+#first_box {
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+    background-color: #E5E5DB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+#omen, #valo {
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: black;
+}
+
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    pointer-events: none;
+}
+
+#title, #lols {
+    text-align: left;
+    margin: 0;
+    color: #FFF01F;
+}
+
+#lols {
+    font-size: 24px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+}
+
+#title {
+    font-size: 200px;
+    margin-bottom: -20px;
+    -webkit-text-stroke: 2px #FFF01F;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #FFF01F;
+}
+
+#Nincom {
+    position: relative;
+    z-index: 1;
+    color: black;
+    font-size: 140px;
+    left: 60px;
+    height: 700px;
+    width: 400px;
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 20px 30px;
+    margin-right: 10px;
+    align-self: center;
+    writing-mode: vertical-rl;
+    transition: transform 0.2s ease-in-out;
+}
+
+#Nincom::before {
+    content: '乗る！';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    writing-mode: vertical-rl;
+    font-size: 200px;
+    height: 700px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5; 
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: black;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(10px); }
+}
+
+#Nincom:hover {
+    animation: shake 0.5s ease-in-out infinite;
+}
+
+#gibber {
+    font-size: 30px;
+    text-align: center;
+}
+
+.text-content, #Nincom, #title, #lols {
+    position: relative;
+    z-index: 1;
+}
+
+.second_box {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 20px;
+    background-image: radial-gradient(black 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    border-radius: 100px;
+    margin: 20px;
+    width: 98%;
+    color: #FFF01F;
+    border: 2px solid #FFF01F;
+}
+
+.circle-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.circle-text {
+    font-size: 50px;
+    font-weight: bold;
+    flex: 1;
+}
+#plem {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+    height: fit-content;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #FFF01F;
+}
+
+.third_box {
+    display: flex;
+    justify-content: center;
+}
+
+#Cu {
+    color: #3B3C37;
+    background-color: #FFF01F;
+    border: 3px solid black;
+    margin: 30px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#Pp {
+    color: #3B3C37;
+    background-color: #FFF01F;
+    border: 3px solid black;
+    margin: 30px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#Hr {
+    color: #3B3C37;
+    background-color: #FFF01F;
+    border: 3px solid black;
+    margin: 30px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#Au {
+    color: #3B3C37;
+    background-color: #FFF01F;
+    border: 3px solid black;
+    margin: 30px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#Cu:hover, #Pp:hover, #Hr:hover, #Au:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.bottom-bar {
+    border: 2px solid black;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#img3 {
+    background-color: #FFF01F;
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: medium;
+}
+
+.bottom-bar p {
+    padding: 10px;
+    color: black;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+@media (max-width: 768px) {
+    #first_box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+    }
+
+    #title {
+    font-size: 10vw;
+    margin-bottom: 2px;
+    }
+
+    .item {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 98%;
+    }
+    
+    .circle-img, .circle-text {
+        width: 120px;
+        height: 120px;
+        font-size: 14px;
+    }
+    
+    .circle-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #gibber {
+        font-size: 10px;
+        text-align: center;
+        margin: -10px;
+    }
+
+    #lols {
+    font-size: 4vw;
+    }
+
+    #Nincom {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    align-self: center;
+    left: 5px;
+    height: 20px;
+    width: 200px;
+    font-size: small;
+    writing-mode: horizontal-tb;
+    }
+
+    .second_box {
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .scoot, .bigbike, .car {
+    width: 90%;
+    height: 200px;
+    margin: 10px 0;
+    background-size: cover;
+    }
+
+    #plem {
+    font-size: 6vw;
+    }
+
+    #Hr, #Au, #Pp, #Cu {
+        margin: 15px;
+    }
+
+    .third_box {
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .third_box a button {
+    width: 90%;
+    margin: 10px 0;
+    }
+
+    .bottom-bar p {
+    font-size: 3vw;
+    }
+
+    .icon {
+    font-size: 6vw;
+    }
+}

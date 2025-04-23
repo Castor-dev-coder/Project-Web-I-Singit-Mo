@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-color: #FFF01F;
+    background-image: radial-gradient(black 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
+}
+
+.mother-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    height: 400px;
+    border: 2px solid #FFF01F;
+    background-color: white;
+    padding: 20px;
+}
+
+.cons {
+    width: 40%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cons label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.cons input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.cons button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cons button:hover {
+    background-color: #45a049;
+}
+
+.image-container {
+    width: 100%;
+    height: 300px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
