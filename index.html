@@ -5,8 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Desings.css">
     <title>I-Singit mo</title>
-</head>
-<body>
+<style>
+    
+        .navbar {
+            width: 90vw;
+          background-color: black;
+          color: white;
+          padding: 1rem 2rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          position: fixed;
+        
+          top: 0;
+          z-index: 1000;
+        }
+    
+        .click-btn {
+          background-color: yellow;
+          color: black;
+          border: none;
+          padding: 0.5rem 1rem;
+          font-weight: bold;
+          cursor: pointer;
+          border-radius: 4px;
+        }
+    
+        .section {
+          height: 100vh;
+          padding-top: 80px; 
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 2rem;
+        }
+      </style>
+    </head>
+    <body>
+    
+      <div class="navbar">
+        <div>My Website</div>
+        <button class="click-btn" onclick="scrollToThirdBox()">Click Me</button>
+      </div>
     <div id="first_box">
 
         <video autoplay loop muted playsinline id="bg-video">
@@ -67,7 +107,16 @@
         </div>
     </div>
 </div>
+        
+<script>
+    function scrollToThirdBox() {
+      document.querySelector('.third_box').scrollIntoView({ behavior: 'smooth' });
+    }
 
+    function scrollToNavbar() {
+      document.querySelector('.navbar').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
 
 </body>
 </html>
